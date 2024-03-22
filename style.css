@@ -1,0 +1,95 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap')
+}
+html{
+    background-color: #36454F;
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+.icon{
+    width: 40px;
+}
+.imageprofile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.navbar{
+    left: 0px;
+    top: 0px;;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    box-shadow: 0px 6px 10px rgb(0, 0, 0);
+    background-color: #36454F;
+}
+.navbar a{
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    box-shadow: 0px 6px 10px rgb(0, 0, 0);
+    transition: 1s;
+}
+.main{
+    top: 0px;
+    margin: 0px;
+    transition: margin-left .5s;
+    color: white;
+    background-color: #36454F;
+    display: grid;
+    justify-content: center;
+}
+section{
+    height: 80vh;
+    margin-bottom: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin: 20px;
+}
+
+/*
+.content{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    width: 80%;
+}
+.content{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    max-height: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.description li{
+    text-align: left;
+}
+.aboutme ol{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+section{
+    display: grid;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
