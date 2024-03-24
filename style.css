@@ -1,95 +1,90 @@
-*{
-    @import url('https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap')
+body{
+    margin: 0;
+    background-color: #172630;
+    color: white;
 }
-html{
-    background-color: #36454F;
-}
-.img{
-    width: 100px;
-    height: 100px;
-}
-.icon{
-    width: 40px;
-}
-.imageprofile{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+a{
+    color: rgb(165, 154, 255);
 }
 .navbar{
-    left: 0px;
-    top: 0px;;
+    background-color: #172630;
     position: fixed;
+    top: 0;
     width: 100%;
-    text-align: center;
-    font-size: 25px;
-    padding: 20px;
+    height: 5vh;
     box-shadow: 0px 6px 10px rgb(0, 0, 0);
-    background-color: #36454F;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    height: 8vh;
+    align-content: center;
 }
 .navbar a{
     color: white;
     border-radius: 50px;
     padding: 10px;
     text-decoration: none;
-    color: white;
 }
 .navbar a:hover{
+    background-color: rgb(53, 42, 132);
     box-shadow: 0px 6px 10px rgb(0, 0, 0);
     transition: 1s;
 }
-.main{
-    top: 0px;
-    margin: 0px;
-    transition: margin-left .5s;
-    color: white;
-    background-color: #36454F;
-    display: grid;
-    justify-content: center;
+.Main{
+    margin-top: 5vh;
+    padding: 50px;
 }
-section{
-    height: 80vh;
-    margin-bottom: 20px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 50px;
-    margin: 20px;
+.contentdiv ol{
+    list-style-type: none;
+    padding: 0;
 }
-
-/*
-.content{
-    min-height: 100vh;
+.contentdiv ol li{
+    display: inline;
+    margin-right: 10px;
+}
+.Profileimg{
+    display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-.container{
-    display: grid;
-    place-items: center;
-    align-content: center;
-    width: 80%;
-}
-.content{
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-    max-height: 100%;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.description li{
+.contentdiv{
     text-align: left;
+    grid-column: 2;
+    padding: 30px;
+    width: 600px;
 }
-.aboutme ol{
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+.ProfileImage{
+    width: 200px;
+    border-radius: 50%;
 }
-section{
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.icon{
+    width: 40px;
+}
+.info{
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
     display: grid;
-    align-items: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 50px;
+}
+.title{
+    text-align: center;
+    font-size: 25px
+}
+.imagediv{
+    grid-column: 1;
+}
+.descriptiondiv{
+    text-align: left;
+    grid-column: 2;
+    padding: 30px;
+    width: 600px;
+}
+.Contacts{
+    margin: 0 auto;
+    width: fit-content;
 }
